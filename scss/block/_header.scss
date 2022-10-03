@@ -1,0 +1,32 @@
+.site-header {
+  padding: 29px 0;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+}
+.navbar__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color:#000000;
+}
+.gamberger-img{
+  display: none;
+}
+@media only screen and (max-width:400px) {
+  .navbar__list{
+    display: none;
+  }
+  .gamberger-img{
+  display: block;
+  }
+}
